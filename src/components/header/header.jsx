@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import "./Header.css"; // Importez le fichier CSS ici
 
 function Header(){
 
 
     return(
         <div className="header">
-        <Link to="/" className="nav-link">
+        <Link to="/Accueil" className="nav-link">
           <img src="src\assets\pizzaMenu.jpg" alt="" />
         </Link>
         <Link to="/Presentation" className="nav-link">

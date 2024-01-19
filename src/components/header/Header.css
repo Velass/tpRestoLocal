@@ -1,0 +1,30 @@
+
+.header {
+    background-color: #f8f8f8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #ff6347; /* Couleur différente au survol */
+  }
+  
+  /* Stylisation spécifique à l'image (ajustez selon vos besoins) */
+  .nav-link img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
