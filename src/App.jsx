@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Carte from "./components/carte/Carte";
 import Presentation from "./components/presentation/presentation";
-import Localisation from "./components/localisation/localisation";
+import Localisation from "./components/localisation/Localisation";
 import Accueil from "./components/accueil/Accueil";
 
 function App() {
