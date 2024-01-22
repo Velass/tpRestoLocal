@@ -6,9 +6,15 @@ import Carte from "./components/carte/Carte";
 import Presentation from "./components/presentation/Presentation";
 import Localisation from "./components/localisation/Localisation";
 import Accueil from "./components/accueil/Accueil";
-import FirebaseUtils from "./utils/firebaseUtils";
+
+import { useEffect } from "react";
+import Firebase from "./utils/firebase";
 
 function App() {
+  useEffect(() => {
+    Firebase.setData()
+  })
+
   return (
     <div className="App">
       <Router>
@@ -19,7 +25,6 @@ function App() {
           <Route path="/Carte" element={<Carte />} />
           <Route path="/Localisation" element={<Localisation />} />
         </Routes>
-        <FirebaseUtils/>
         <Footer />
       </Router>
     </div>

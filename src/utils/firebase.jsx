@@ -1,4 +1,3 @@
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import {
   getFirestore,
@@ -44,12 +43,14 @@ import {
         name: "Margherita",
         ingredients: ["Tomato Sauce", "Mozzarella", "Basil"],
         price: 9.99,
+        image: "https://fr.ooni.com/cdn/shop/articles/Margherita-9920.jpg?crop=center&height=800&v=1644590066&width=800",
       },
       {
         id: 2,
         name: "Pepperoni",
         ingredients: ["Tomato Sauce", "Mozzarella", "Pepperoni"],
         price: 11.99,
+        image: "https://fr.ooni.com/cdn/shop/articles/Margherita-9920.jpg?crop=center&height=800&v=1644590066&width=800",
       },
       {
         id: 3,
@@ -63,6 +64,7 @@ import {
           "Olives",
         ],
         price: 10.99,
+        image: "https://fr.ooni.com/cdn/shop/articles/Margherita-9920.jpg?crop=center&height=800&v=1644590066&width=800",
       },
       {
         id: 4,
@@ -75,12 +77,14 @@ import {
           "Cilantro",
         ],
         price: 12.99,
+        image: "https://fr.ooni.com/cdn/shop/articles/Margherita-9920.jpg?crop=center&height=800&v=1644590066&width=800",
       },
       {
         id: 5,
         name: "Hawaiian",
         ingredients: ["Tomato Sauce", "Mozzarella", "Ham"],
         price: 11.49,
+        image: "https://fr.ooni.com/cdn/shop/articles/Margherita-9920.jpg?crop=center&height=800&v=1644590066&width=800",
       },
       {
         id: 6,
@@ -93,6 +97,7 @@ import {
           "Artichokes",
         ],
         price: 12.49,
+        image: "https://fr.ooni.com/cdn/shop/articles/Margherita-9920.jpg?crop=center&height=800&v=1644590066&width=800",
       },
       {
         id: 7,
@@ -105,6 +110,7 @@ import {
           "Parmesan",
         ],
         price: 13.99,
+        image: "https://fr.ooni.com/cdn/shop/articles/Margherita-9920.jpg?crop=center&height=800&v=1644590066&width=800",
       },
       {
         id: 8,
@@ -118,6 +124,7 @@ import {
           "Red Onions",
         ],
         price: 11.99,
+        image: "https://fr.ooni.com/cdn/shop/articles/Margherita-9920.jpg?crop=center&height=800&v=1644590066&width=800",
       },
       {
         id: 9,
@@ -130,12 +137,14 @@ import {
           "Parmesan",
         ],
         price: 13.49,
+        image: "https://fr.ooni.com/cdn/shop/articles/Margherita-9920.jpg?crop=center&height=800&v=1644590066&width=800",
       },
       {
         id: 10,
         name: "Chicken Alfredo",
         ingredients: ["Alfredo Sauce", "Mozzarella", "Chicken", "Broccoli"],
         price: 12.49,
+        image: "https://fr.ooni.com/cdn/shop/articles/Margherita-9920.jpg?crop=center&height=800&v=1644590066&width=800",
       },
     ],
   };
@@ -147,6 +156,9 @@ import {
     getData: async () => {
       return await getDoc(doc(db, collectionName, documentName));
     },
+
+    
   };
+
   
   export default Firebase; // Exportez l'objet Firebase

@@ -1,0 +1,23 @@
+.presentation {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  .bloc-presentation {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
