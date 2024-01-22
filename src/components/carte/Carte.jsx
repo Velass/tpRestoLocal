@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Firebase from '../../utils/firebase';
+import Firebase from '../../utils/Firebase';
 
 function Carte() {
   const [pizzasFromFirestore, setPizzasFromFirestore] = useState([]);
@@ -10,10 +10,8 @@ function Carte() {
         const documentSnapshot = await Firebase.getData();
         if (documentSnapshot.exists()) {
           const data = documentSnapshot.data();
-          console.log(data)
           if (data && data.pizzas) {
             setPizzasFromFirestore(data.pizzas);
-            console.log(data.pizza)
           } else {
             console.log("Le document ne contient pas la propriété 'pizzas' ou est vide.");
           }

@@ -161,4 +161,4 @@ import {
   };
 
   
-  export default Firebase; // Exportez l'objet Firebase
+  export default Firebase; 

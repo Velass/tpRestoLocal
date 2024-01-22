@@ -9,6 +9,7 @@ import Accueil from "./components/accueil/Accueil";
 
 import { useEffect } from "react";
 import Firebase from "./utils/firebase";
+import { CartProvider } from "./utils/CartContext";
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <div className="App">
+      <CartProvider>
       <Router>
         <Header />
         <Routes>
@@ -27,6 +29,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
+      </CartProvider>
     </div>
   );
 }
