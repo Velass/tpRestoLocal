@@ -1,0 +1,64 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "Margherita",
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Basil"],
+      "price": 9.99
+    },
+    {
+      "id": 2,
+      "name": "Pepperoni",
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Pepperoni"],
+      "price": 11.99
+    },
+    {
+      "id": 3,
+      "name": "Vegetarian",
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Mushrooms", "Bell Peppers", "Onions", "Olives"],
+      "price": 10.99
+    },
+    {
+      "id": 4,
+      "name": "BBQ Chicken",
+      "ingredients": ["BBQ Sauce", "Mozzarella", "Chicken", "Red Onions", "Cilantro"],
+      "price": 12.99
+    },
+    {
+      "id": 5,
+      "name": "Hawaiian",
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Ham"],
+      "price": 11.49
+    },
+    {
+      "id": 6,
+      "name": "Capricciosa",
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Ham", "Mushrooms", "Artichokes"],
+      "price": 12.49
+    },
+    {
+      "id": 7,
+      "name": "Quattro Formaggi",
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Gorgonzola", "Fontina", "Parmesan"],
+      "price": 13.99
+    },
+    {
+      "id": 8,
+      "name": "Mediterranean",
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Feta", "Olives", "Tomatoes", "Red Onions"],
+      "price": 11.99
+    },
+    {
+      "id": 9,
+      "name": "Prosciutto e Rucola",
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Prosciutto", "Arugula", "Parmesan"],
+      "price": 13.49
+    },
+    {
+      "id": 10,
+      "name": "Chicken Alfredo",
+      "ingredients": ["Alfredo Sauce", "Mozzarella", "Chicken", "Broccoli"],
+      "price": 12.49
+    }
+  ]
+}
