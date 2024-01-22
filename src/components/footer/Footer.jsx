@@ -24,5 +24,3 @@ function Footer() {
 }
 
 export default Footer;
-const collectionName = "pizzasCollection";
-const documentName = "GUUzMY8eSicxn7vilnSe ";

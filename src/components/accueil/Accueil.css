@@ -1,0 +1,13 @@
+.cta-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff4500; /* Orange, ajustez selon vos préférences */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  
+  .cta-button:hover {
+    background-color: #e04400; /* Variation de couleur au survol */
+  }

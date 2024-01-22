@@ -8,8 +8,6 @@
   
   .menu-item {
     background-color: #333; /* Couleur de fond pour chaque élément du menu */
-    padding: 20px; /* Espace intérieur */
-    margin: 10px; /* Marge extérieure entre les éléments du menu */
     text-align: center; /* Centrer le contenu */
     border-radius: 10px; /* Coins arrondis */
   }
