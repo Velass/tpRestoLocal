@@ -27,13 +27,8 @@ import {
   // eslint-disable-next-line no-unused-vars
   const db = getFirestore(app);
 
-  // Initialise Cloud Firestore
-  //const firestore = app.firestore();
-
-  // Nom de la collection (peut être n'importe quel nom significatif pour votre application)
   const collectionName = "pizzasCollection";
 
-  // Nom du document (peut être n'importe quel nom significatif pour votre JSON)
   const documentName = "GUUzMY8eSicxn7vilnSe";
 
   const jsonToStore = {
@@ -161,4 +156,4 @@ import {
   };
 
   
-  export default Firebase; 
+  export default Firebase;

@@ -1,0 +1,124 @@
+.panier-recap {
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    button {
+      background-color: #ff6347;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #aa3b2d;
+    }
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-direction: column;
+
+    img {
+      max-width: 200px;
+    }
+
+    button {
+      width: 100px;
+      align-self: center;
+      text-align: center;
+    }
+  }
+}
+
+.button {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+
+  button {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  button:hover {
+    background-color: #cc4c39;
+  }
+
+  
+}
+
+.formulaire {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #150704;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulaire h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .formulaire form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .formulaire label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .formulaire input {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .formulaire button {
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #CC4C39;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+    align-self: center;
+  }
+  
+  .formulaire button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .message {
+    color: #ff0000;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }

@@ -5,7 +5,9 @@
   justify-content: space-around;
   align-items: center;
   font-size: larger;
+  
 }
+
 
 .nav-link {
   display: flex;

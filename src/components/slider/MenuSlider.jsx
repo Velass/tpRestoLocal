@@ -54,7 +54,7 @@ const MenuSlider = () => {
             <h3>{item.title}</h3>
             <p>{item.ingredients.join(", ")}</p>
             <p>Prix: {item.price}€</p>
-            <button onClick={() => onAddToCart(item)}>Rajouter au panier</button>
+            <button onClick={() => onAddToCart(item)}>Ajouter au panier</button>
           </div>
         ))}
       </Slider>

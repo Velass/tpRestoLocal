@@ -37,7 +37,7 @@ function Carte() {
           <img src={pizza.image} alt={pizza.name} />
           <p>Ingredients: {pizza.ingredients.join(", ")}</p>
           <p>Prix: {pizza.price}€</p>
-          <button onClick={() => onAddToCart(pizza)}>Rajouter au panier</button>
+          <button onClick={() => onAddToCart(pizza)}>Ajouter au panier</button>
         </div>
       ))}
     </div>
