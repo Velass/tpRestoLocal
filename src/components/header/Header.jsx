@@ -18,8 +18,8 @@ function Header(){
         <Link to="/Localisation" className="nav-link">
           Localisation
         </Link>
-        <Link to="/Localisation" className="nav-link">
-          Panier
+        <Link to="/Localisation" className="nav-link cart">
+          <img src="src\assets\panier.png" alt="" />
         </Link>
       </div>
     );

@@ -1,6 +1,6 @@
 
 .header {
-    background-color: #f8f8f8;
+    background-color: #FFFFFF;
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -16,15 +16,22 @@
   }
   
   .nav-link:hover {
-    color: #ff6347; /* Couleur différente au survol */
+    color: #ff6347; 
   }
   
-  /* Stylisation spécifique à l'image (ajustez selon vos besoins) */
   .nav-link img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 10px;
+  }
+
+  .cart img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 0%;
   }
   
