@@ -16,7 +16,8 @@ const MenuSlider = () => {
         if (documentSnapshot.exists()) {
           const data = documentSnapshot.data();
           if (data && data.pizzas) {
-            setPizzasFromFirestore(data.pizzas);
+            const firstFivePizzas = data.pizzas.slice(0, 5);
+            setPizzasFromFirestore(firstFivePizzas);
           } else {
             console.log(
               "Le document ne contient pas la propriété 'pizzas' ou est vide."
