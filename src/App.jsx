@@ -6,6 +6,7 @@ import Carte from "./components/carte/Carte";
 import Presentation from "./components/presentation/Presentation";
 import Localisation from "./components/localisation/Localisation";
 import Accueil from "./components/accueil/Accueil";
+import Panier from "./components/panier/Panier"
 
 import { useEffect } from "react";
 import Firebase from "./utils/Firebase.jsx";
@@ -22,10 +23,12 @@ function App() {
       <Router>
         <Header />
         <Routes>
+        <Route path="/" element={<Accueil />} />
           <Route path="/Accueil" element={<Accueil />} />
           <Route path="/Presentation" element={<Presentation />} />
           <Route path="/Carte" element={<Carte />} />
           <Route path="/Localisation" element={<Localisation />} />
+          <Route path="/Panier" element={<Panier />} />
         </Routes>
         <Footer />
       </Router>

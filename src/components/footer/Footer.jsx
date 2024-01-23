@@ -12,11 +12,11 @@ function Footer() {
           <Link to="/Carte" className="nav-link">
             Carte
           </Link>
-        </div>
-        <div className="right">
           <Link to="/Localisation" className="nav-link">
             Localisation
           </Link>
+        </div>
+        <div className="right">
           <Link to="/Stock" className="nav-link">
             Stock
           </Link>

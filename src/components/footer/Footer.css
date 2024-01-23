@@ -11,7 +11,21 @@
 
   .lien-site {
     display: flex;
-    font-size: large;
+    font-size: medium;
+    gap: 200px;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
     .nav-link {
       text-decoration: none;
       color: #fff;

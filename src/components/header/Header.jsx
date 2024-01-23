@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import "./Header.css"; // Importez le fichier CSS ici
+import { useContext } from "react";
+import { CartContext } from "../../utils/CartContext";
 
 function Header(){
-
+  const { cart } = useContext(CartContext);
+  const number = cart.length;
 
     return(
         <div className="header">
@@ -18,9 +21,12 @@ function Header(){
         <Link to="/Localisation" className="nav-link">
           Localisation
         </Link>
-        <Link to="/Localisation" className="nav-link cart">
+        <div className="panier">
+        <Link to="/Panier" className="nav-link cart">
           <img src="src\assets\panier.png" alt="" />
+          <p>{number}</p>
         </Link>
+        </div>
       </div>
     );
 }

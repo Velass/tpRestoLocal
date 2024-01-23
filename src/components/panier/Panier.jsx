@@ -1,8 +1,8 @@
-import './Accueil.css';
+import './Panier.css';
 import { Link } from "react-router-dom";
 import MenuSlider from "../slider/MenuSlider";
 
-function Accueil() {
+function Panier() {
   return (
     <div className="accueil">
       <MenuSlider />
@@ -13,4 +13,4 @@ function Accueil() {
   );
 }
 
-export default Accueil;
+export default Panier;
