@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Firebase from '../../utils/Firebase';
+import Firebase from "../../utils/Firebase.jsx";
 
 function Carte() {
   const [pizzasFromFirestore, setPizzasFromFirestore] = useState([]);
