@@ -1,12 +1,13 @@
 import "./Panier.css";
 import { useContext, useState } from "react";
 import { CartContext } from "../../utils/CartContext";
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { FormContext } from "../../utils/FormContext";
 
 function Panier() {
   const { cart, clearCart, removeFromCart } = useContext(CartContext);
   const { addToInfo } = useContext(FormContext);
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     nom: '',
     prenom: '',
@@ -24,10 +25,10 @@ function Panier() {
   };
 
   const handleSubmit = (e) => {
-    addToInfo(formData)
-    console.log(formData)
-    console.log(e.target)
- 
+    e.preventDefault();
+    addToInfo(formData);
+    clearCart()
+    navigate("/Livraison");
   };
 
   const isFormValid = formData.nom && formData.prenom && formData.adresse;
@@ -67,7 +68,6 @@ function Panier() {
             Adresse:
             <input type="text" name="adresse" value={formData.adresse} onChange={handleInputChange} />
           </label>
-
           <button type="submit" disabled={!isFormValid}>Valider la Commande</button>
           {!isFormValid && <p className="message">Veuillez remplir le formulaire.</p>}
         </form>

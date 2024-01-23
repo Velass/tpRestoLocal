@@ -6,7 +6,7 @@ import Carte from "./components/carte/Carte";
 import Presentation from "./components/presentation/Presentation";
 import Localisation from "./components/localisation/Localisation";
 import Accueil from "./components/accueil/Accueil";
-import Panier from "./components/panier/Panier";
+import Panier from "./components/panier/Panier.jsx";
 
 import { useEffect } from "react";
 import Firebase from "./utils/Firebase.jsx";

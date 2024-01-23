@@ -27,7 +27,7 @@ function Presentation() {
           <strong>Ingrédients Frais, Tradition Authentique 🌿</strong>
         </p>
         <p>
-          Chez <strong>Riccardo's</strong>, nous croyons en l'authenticité. Nos
+          Chez <strong>Riccardo's Pizzeria</strong>, nous croyons en l'authenticité. Nos
           ingrédients sont soigneusement sélectionnés pour capturer la vraie
           saveur de l'Italie. Des tomates juteuses de Naples, de la mozzarella
           fondante aux fromageries locales, chaque bouchée est une promenade à
@@ -56,7 +56,7 @@ function Presentation() {
         </p>
         <p>
           De soirées musicales à des dégustations de vin, chaque événement à{" "}
-          <strong>Riccardo's</strong> est une célébration de la vie à
+          <strong>Riccardo's Pizzeria</strong> est une célébration de la vie à
           l'italienne. Venez pour la pizza, restez pour la compagnie !
         </p>
         <p>
