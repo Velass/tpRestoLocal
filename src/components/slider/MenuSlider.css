@@ -1,41 +1,40 @@
-/* MenuSlider.css (créez un fichier CSS séparé si ce n'est pas déjà fait) */
 
 .menu-slider {
-    background-color: black; /* Fond noir */
-    padding: 50px; /* Espace intérieur */
+    background-color: black; 
+    padding: 50px;
     color: #ff9800;
   }
   
   .menu-item {
-    background-color: #333; /* Couleur de fond pour chaque élément du menu */
-    text-align: center; /* Centrer le contenu */
-    border-radius: 10px; /* Coins arrondis */
+    background-color: #333;
+    text-align: center; 
+    border-radius: 10px;
   }
   
   .menu-item img {
-    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur du conteneur */
-    border-radius: 5px; /* Coins arrondis pour l'image */
+    max-width: 100%;
+    border-radius: 5px; 
   }
   
   .menu-item h3 {
-    color: #fff; /* Couleur du texte */
+    color: #fff;
   }
   
   .menu-item p {
-    color: #ccc; /* Couleur du texte légèrement grisé */
+    color: #ccc;
   }
   
   .menu-item button {
-    background-color: #ff9800; /* Couleur de fond du bouton */
-    color: #fff; /* Couleur du texte du bouton */
-    border: none; /* Supprimer la bordure */
-    padding: 10px 20px; /* Espace intérieur du bouton */
-    cursor: pointer; /* Curseur pointeur au survol */
-    border-radius: 5px; /* Coins arrondis */
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
   }
   
   .menu-item button:hover {
-    background-color: #e64a19; /* Couleur de fond du bouton au survol */
+    background-color: #e64a19;
   }
   
   .slider-indicator {

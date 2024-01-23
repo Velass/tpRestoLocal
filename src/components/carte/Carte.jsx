@@ -1,7 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import Firebase from "../../utils/Firebase.jsx";
+import { CartContext } from '../../utils/CartContext.jsx';
+import "./Carte.css";
 
 function Carte() {
+  const { onAddToCart } = useContext(CartContext);
   const [pizzasFromFirestore, setPizzasFromFirestore] = useState([]);
 
   useEffect(() => {
@@ -29,11 +32,12 @@ function Carte() {
   return (
     <div className="pizza">
       {pizzasFromFirestore.map((pizza) => (
-        <div key={pizza.id}>
+        <div key={pizza.id} className='conteneur-pizza'>
           <h3>{pizza.name}</h3>
-          <img src={pizza.image} alt={pizza.name} style={{ maxWidth: '200px' }} />
+          <img src={pizza.image} alt={pizza.name} />
           <p>Ingredients: {pizza.ingredients.join(", ")}</p>
-          <p>Price: ${pizza.price}</p>
+          <p>Prix: {pizza.price}€</p>
+          <button onClick={() => onAddToCart(pizza)}>Rajouter au panier</button>
         </div>
       ))}
     </div>

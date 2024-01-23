@@ -1,4 +1,8 @@
 .footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
   background-color: #333;
   color: #fff;
   padding: 10px;
@@ -7,7 +11,7 @@
   align-items: center;
   position: inherit;
   bottom: 0;
-  
+
   .nav-link {
     text-decoration: none;
     color: #fff;
@@ -16,7 +20,6 @@
     transition: color 0.3s ease-in-out;
   }
 }
-
 
 .nav-link:hover {
   color: #ff6347;
