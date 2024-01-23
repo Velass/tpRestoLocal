@@ -5,7 +5,7 @@ function Presentation() {
     <div className="presentation">
       <h2>Présentation</h2>
       <div className="bloc-presentation">
-        <img src="src\assets\italienCliche.JPG" alt="Riccardo" />
+        <img src="/img/italienCliche.JPG" alt="Riccardo" />
         <p>
           🍕 <strong>Rencontrez Riccardo, le Maestro de la Pizza</strong> 🍕
         </p>

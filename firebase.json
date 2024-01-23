@@ -4,13 +4,8 @@
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "./database/**",
-        "function": "api"
-      }
+      "**/node_module"    
     ]
   }
+  
 }

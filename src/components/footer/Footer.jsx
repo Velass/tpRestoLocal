@@ -27,16 +27,16 @@ function Footer() {
       </div>
       <div className="reseau">
         <a className="twitter" href="https://twitter.com/">
-        <img src="src\assets\twitter.png" alt="" />
+        <img src="/img/twitter.png" alt="" />
         </a>
         <a className="fb" href="https://www.facebook.com">
-        <img src="src\assets\facebook.png" alt="" />
+        <img src="/img/facebook.png" alt="" />
         </a>
         <a className="insta" href="https://www.instagram.com/">
-        <img src="src\assets\instagram.png" alt="" />
+        <img src="/img/instagram.png" alt="" />
         </a>
         <a className="reddit" href="https://www.reddit.com/">
-        <img src="src\assets\reddit.png" alt="" />
+        <img src="/img/reddit.png" alt="" />
         </a>
       </div>
       <p className="copyright">Copyright © 2024-2024 Vellas</p>

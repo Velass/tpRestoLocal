@@ -10,7 +10,7 @@ function Header(){
     return(
         <div className="header">
         <Link to="/Accueil" className="nav-link">
-          <img src="src\assets\pizzaMenu.jpg" alt="" />
+          <img src="/img/pizzaMenu.jpg" alt="" />
         </Link>
         <Link to="/Presentation" className="nav-link">
           Présentation
@@ -23,7 +23,7 @@ function Header(){
         </Link>
         <div className="panier">
         <Link to="/Panier" className="nav-link cart">
-          <img src="src\assets\panier.png" alt="" />
+          <img src="/img/panier.png" alt="" />
           <p>{number}</p>
         </Link>
         </div>
