@@ -6,6 +6,18 @@
       "**/.*",
       "**/node_module"    
     ]
-  }
+  },
+  "headers": [
+    {
+      "source": "**/*.js",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        }
+      ]
+    }
+  ]
+  
   
 }
