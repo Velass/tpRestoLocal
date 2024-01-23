@@ -8,7 +8,7 @@ import Localisation from "./components/localisation/Localisation";
 import Accueil from "./components/accueil/Accueil";
 
 import { useEffect } from "react";
-import Firebase from "./utils/firebase";
+import Firebase from "./utils/Firebase.jsx";
 import { CartProvider } from "./utils/CartContext";
 
 function App() {
